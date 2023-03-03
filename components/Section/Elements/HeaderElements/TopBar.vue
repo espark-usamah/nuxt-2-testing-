@@ -13,16 +13,16 @@
             Offer Coupon Code : <span class="fw-bold">{{ offerCode }}</span>
           </p>
         </div>
-        <!-- <topBarDropDowns /> -->
+        <TopBarDropDowns />
       </div>
     </div>
   </div>
 </template>
 
 <script>
-// import topBarDropDowns from '~/layout/elements/headerElements/topBarDropDowns.vue'
+import TopBarDropDowns from './TopBarDropDowns.vue'
 export default {
   props: ['topBarClasses', 'offerCode'],
-  //   components: { topBarDropDowns },
+  components: { TopBarDropDowns },
 }
 </script>
