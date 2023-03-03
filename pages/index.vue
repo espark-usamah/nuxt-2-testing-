@@ -1,6 +1,5 @@
 <template>
   <div>
-    Electronic
     <Electronic />
   </div>
 </template>
